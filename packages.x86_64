@@ -14,7 +14,7 @@ base
 broadcom-wl
 btrfs-progs
 clonezilla
-cloud-init
+#cloud-init
 cryptsetup
 darkhttpd
 ddrescue
@@ -158,7 +158,7 @@ noto-fonts-cjk
 cups
 
 #AUR Helper
-paru
+yay
 
 #NVIDIA Drivers & Tools
 nvidia
