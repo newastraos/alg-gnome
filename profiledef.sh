@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="alg-gnome"
-iso_label="ALG_GNOME_$(date +%Y%m)"
-iso_publisher="DemonKiller <https://archlinuxgui.in>"
-iso_application="ALG Live/Rescue CD"
+iso_name="astraos"
+iso_label="astraOS-2.0-Delta3_$(date +%Y%m)"
+iso_publisher="astraOS <https://github.com/newastraos/>"
+iso_application="astraOS Live/Rescue CD"
 iso_version="$(date +%Y.%m)"
 install_dir="arch"
 bootmodes=('bios.syslinux.mbr' 'bios.syslinux.eltorito' 'uefi-ia32.grub.esp' 'uefi-x64.grub.esp' 'uefi-ia32.grub.eltorito' 'uefi-x64.grub.eltorito')
